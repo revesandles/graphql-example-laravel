@@ -124,7 +124,7 @@ return [
     'schemas' => [
         'default' => [
             'query' => [
-
+                'allPosts' => 'App\GraphQL\Query\AllPostsQuery',
             ],
             'mutation' => [
 
