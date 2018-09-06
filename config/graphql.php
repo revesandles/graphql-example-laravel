@@ -181,7 +181,7 @@ return [
      * ]
      */
     'types' => [
-
+        'App\GraphQL\Type\PostType'
     ],
 
     /*
