@@ -4,7 +4,7 @@ An example application in Laravel to demonstrate GraphQL.
 
 ### Getting Started
 
-```
+```sh
 git clone https://github.com/kinship/graphql-example-laravel.git
 cd graphql-example-laravel
 composer install
@@ -16,7 +16,7 @@ php artisan migrate --seed # creates some fake data, too
 
 ### Starting a Server
 
-```
+```sh
 php artisan serve
 ```
 
