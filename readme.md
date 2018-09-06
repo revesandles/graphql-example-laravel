@@ -1,6 +1,6 @@
 ## graphql-example-laravel
 
-An example application in Laravel to demonstrate GraphQL.
+An example application in Laravel to demonstrate GraphQL. Compare to the simple [Phoenix](https://github.com/kinship/graphql-example-phoenix) implementation.
 
 ### Getting Started
 
