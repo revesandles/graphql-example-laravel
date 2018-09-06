@@ -36,3 +36,18 @@ query {
   }
 }
 ```
+
+### Benchmarking
+
+```
+wrk -d30s -c6 -t6 "http://localhost:8000/graphql?query=query{allPosts{id}}"
+
+  6 threads and 6 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    91.73ms   14.71ms 175.37ms   88.49%
+    Req/Sec    10.37      3.34    30.00     87.03%
+  1894 requests in 30.10s, 2.24MB read
+  Socket errors: connect 0, read 1894, write 0, timeout 0
+Requests/sec:     62.92
+Transfer/sec:     76.35KB
+```
